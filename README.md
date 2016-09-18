@@ -14,7 +14,6 @@ To install bs4 and requests, run:
 pip install bs4 requests
 ```
 
-<br />
 ### Scheduling claim using cron
 
 Add below command to crontab:
@@ -22,7 +21,6 @@ Add below command to crontab:
 ```
 0 7 * * * /bin/python2.7 /path/to/claim.py
 ```
-<br />
 claim.py will be executed at 7:00 AM every day
 
 
