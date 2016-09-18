@@ -58,22 +58,3 @@ for book in list_claimed_book.find_all("div", {"class": "product-line unseen"}):
 	print("%i. %s" %(i,book.get('title')))
 	i += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-
-
-
